@@ -10,6 +10,18 @@ public class IntegerArrayUtils {
      * @return - identical array with one additional element of `valueToBeAdded` at the end of the array
      */
     public static Integer[] add(Integer[] integerArray, Integer valueToBeAdded) {
+
+       // Integer[] addedArray = new Integer[integerArray.length + 1;
+
+        //for(int i = 0; i<integerArray.length; i++){
+
+            //addedArray += i;
+
+        //}
+
+
+
+
         return null;
     }
 
@@ -29,7 +41,9 @@ public class IntegerArrayUtils {
      * @return element located at `indexToFetch`
      */
     public static Integer get(Integer[] integerArray, Integer indexToFetch) {
-        return null;
+
+
+        return integerArray[indexToFetch];
     }
 
     /**
@@ -37,6 +51,8 @@ public class IntegerArrayUtils {
      * @return identical array with even-values incremented by 1 and odd-values decremented by 1
      */
     public static Integer[] incrementEvenDecrementOdd(Integer[] integerArray) {
+
+
         return null;
     }
 

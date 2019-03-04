@@ -15,24 +15,35 @@ public class Animal {
      * @param id - id of animal
      * @param owner - owner of animal
      */
+    Long id;
+    Person owner;
+
     public Animal(Long id, Person owner) {
+        this.id = id;
+        this.owner = owner;
     }
 
     public Long getId() {
-        return null;
+
+        return this.id;
     }
 
     public void setId(Long id) {
+        this.id = id;
+
     }
 
     public Person getOwner() {
-        return null;
+
+        return this.owner;
     }
 
     public void setOwner(Person owner) {
+        this.owner = owner;
     }
 
     public Address getAddress() {
+
         return null;
     }
 }
